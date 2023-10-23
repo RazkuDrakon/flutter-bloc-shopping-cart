@@ -85,22 +85,3 @@ class _HomeState extends State<Home> {
     );
   }
 }
-
-/*return Scaffold(
-appBar: AppBar(
-backgroundColor: Colors.teal,
-title: Text('Grocery UI App'),
-actions: [
-IconButton(
-onPressed: () {
-homeBloc.add(HomeWishlistButtonNavigateEvent());
-},
-icon: Icon(Icons.favorite_border)),
-IconButton(
-onPressed: () {
-homeBloc.add(HomeCartButtonNavigateEvent());
-},
-icon: Icon(Icons.shopping_bag_outlined)),
-],
-),
-); */
